@@ -1,15 +1,14 @@
 import Header from '../componets/Header';
 
-function DefaultLayout({ children }) {
+function HeaderUpload({ children }) {
     return (
         <div>
             <Header />
             <div className="container">
-                <Sidebar />
                 <div className="contain">{children}</div>
             </div>
         </div>
     );
 }
 
-export default DefaultLayout;
+export default HeaderUpload;

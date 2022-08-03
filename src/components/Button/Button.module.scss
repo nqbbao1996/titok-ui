@@ -1,0 +1,60 @@
+.wrapper {
+    font-size: 1.6rem;
+    font-weight: 700;
+    min-width: 100px;
+    background-color: white;
+    border: 1px solid transparent;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    + .wrapper {
+        margin-left: 6px;
+    }
+}
+
+.primary {
+    background-color: var(--Bcolor);
+    color: white;
+    &:hover {
+        background-color: aquamarine;
+    }
+}
+.outline {
+    border-color: red;
+    background-color: aqua;
+    opacity: 30%;
+    &:hover {
+        opacity: 60%;
+    }
+}
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.rounded {
+    border-radius: 999px;
+}
+.small {
+    width: 88px;
+    height: 28px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.large {
+    min-width: 160px;
+    height: 36px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.icon-sub {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+}

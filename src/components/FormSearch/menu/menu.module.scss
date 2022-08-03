@@ -1,0 +1,36 @@
+.menu-list {
+    position: sticky;
+    width: 224px;
+    min-height: none;
+
+    h3 {
+        font-weight: 700;
+        color: aquamarine;
+        text-align: center;
+    }
+
+    .menu-item {
+        button,
+        a {
+            font-weight: 600;
+            margin-left: 0;
+            display: block;
+            text-align: left;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+            padding: 8px;
+            width: 100%;
+            border-radius: 0;
+            &:hover {
+                background-color: #818181;
+            }
+        }
+    }
+}
+.form-menu {
+    padding: 12px 0 8px 0;
+    margin-top: 0;
+}
+.separate {
+    border-top: 1px solid #ccc;
+}
